@@ -1,0 +1,267 @@
+:root {
+  --primary: #33A8DB;
+  --dark: #000;
+  --light: #fff;
+  --accent: #252525;
+  --gray: #adadad;
+  --font-main: 'Raleway', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--light);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #33A8DB, #1472B7);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--primary);
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.banner-txt {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)),
+    url('../../assets/images/banner.png');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 200px;
+  width: 200px;
+  margin: auto auto 1rem;
+  border-radius: 50%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content .btn-button {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid;
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-content .btn-button:hover {
+  background: var(--primary);
+  color: var(--dark);
+  transform: scale(1.05);
+}
+
+#course-content {
+  padding: 4rem 1rem;
+}
+
+.txt-frameworks {
+  color: var(--gray);
+}
+
+.sem-frameworks {
+  font-style: italic;
+  color: var(--light);
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.module {
+  background-color: var(--accent);
+  border: 1px solid var(--primary);
+  padding: 1.25rem 2rem;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.6);
+  font-size: 1.2rem;
+  transition: font-size 0.3s ease;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;          
+}
+
+.module span {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+#transform-world {
+  background: url("../../assets/images/woman-code.png") center center no-repeat fixed;
+  background-size: cover;
+  height: 560px;
+  padding: 11.5rem;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+}
+
+#transform-world h1 {
+  color: var(--light);
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-shadow: 2px 2px #33A8DB;
+  max-width: 300px;
+}
+
+#professional-challenges {
+  padding: 4rem 1rem;
+}
+
+footer {
+  padding: 3rem 1rem;
+  background: linear-gradient(to top, rgba(50, 168, 219, 0.1), transparent);
+  text-align: center;
+  border-top: 1px solid #33A8DB80;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dio-logo {
+  margin: 0 auto 1rem;
+  max-width: 250px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .banner-txt {
+    font-size: 1.2rem;
+    padding: 0 5px;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    height: 150px;
+    width: 150px;
+  }
+
+  .banner-content .btn-button {
+    font-size: 0.875rem;
+  }
+
+  .module {
+    flex-direction: column;
+    padding: 0.9rem 0.8rem;
+    font-size: 0.8rem;
+    gap: 2px;
+  }
+
+  #transform-world {
+    height: 400px;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #transform-world h1 {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .module {
+    flex-direction: row;   
+    gap: 5px; 
+  }
+}
