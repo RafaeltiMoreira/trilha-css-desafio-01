@@ -68,7 +68,7 @@ p {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)),
-    url('https://cyqs77l9sw.ufs.sh/f/ccydBuzjU4R1qvT5bJKZNlT1HtfV8uhGmBas0ogiv7cCY3rL');
+    url("https://github.com/RafaeltiMoreira/trilha-css-desafio-01/blob/main/assets/images/banner.png?raw=true");
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -159,7 +159,7 @@ p {
 }
 
 #transform-world {
-  background: url("https://cyqs77l9sw.ufs.sh/f/ccydBuzjU4R1zRLUY2BK6XMkqbEnNQ0tC9giLOswTSJ42vcD") center center no-repeat fixed;
+  background: url("https://github.com/RafaeltiMoreira/trilha-css-desafio-01/blob/main/assets/images/woman-code.png") center center no-repeat fixed;
   background-size: cover;
   height: 560px;
   padding: 11.5rem;
