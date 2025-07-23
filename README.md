@@ -4,7 +4,7 @@
 
 ## 🎯 Deploy do Desafio
 
-- [Clique aqui](https://rafaeltimoreira.github.io/trilha-css-desafio-01/) para acessar o resultado final da Landing Page!
+- [Clique aqui](https://trilha-css-desafio-01.netlify.app/) para acessar o resultado final da Landing Page!
 
 ![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
 
@@ -42,7 +42,7 @@
 
 - [Plataforma DIO](https://web.dio.me/)
 - [Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6)
-- [Deploy GitHub Pages](https://rafaeltimoreira.github.io/trilha-css-desafio-01/)
+- [Deploy GitHub Pages](https://trilha-css-desafio-01.netlify.app/)
 
 ## 👨‍💻 Autor
 
