@@ -68,7 +68,7 @@ p {
 
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)),
-    url('/assets/images/banner.png');
+    url('trilha-css-desafio-01/assets/images/banner.png');
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -159,7 +159,7 @@ p {
 }
 
 #transform-world {
-  background: url("/assets/images/woman-code.png") center center no-repeat fixed;
+  background: url("trilha-css-desafio-01/assets/images/woman-code.png") center center no-repeat fixed;
   background-size: cover;
   height: 560px;
   padding: 11.5rem;
