@@ -42,7 +42,7 @@
 
 - [Plataforma DIO](https://web.dio.me/)
 - [Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6)
-- [Deploy GitHub Pages](https://trilha-css-desafio-01.netlify.app/)
+- [Deploy Netlify](https://trilha-css-desafio-01.netlify.app/)
 
 ## 👨‍💻 Autor
 
